@@ -1,16 +1,15 @@
 body {
-background-color: rgb(150, 23, 23);
+background-color: rgb(49, 48, 146);
 font-family: Arial, Helvetica, sans-serif;
-font-size: larger;
-
+font-size:  h2 { font-size: 18px; }
 nav li 
-margin: 14px;
+margin: 16px;
 }
 
 nav a { 
     color: whitesmoke;
      text-decoration: none;
      font-size:14px;
-
+     
 
 }
