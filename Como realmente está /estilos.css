@@ -36,11 +36,13 @@ main {
   padding: 20px;
   background-color: #665db6;
 }
-img{
+img {
   max-width: 100%;
   height: auto;
   border: #000 solid 1px;
 }
+  article { margin-bottom: 20px;
+  }
 .menu {
   display: flex;
   flex-wrap: wrap; 
