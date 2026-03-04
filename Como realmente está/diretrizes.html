@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spottedunifev.mainpage.html</title>
+    <link rel="stylesheet" href="estilos.css">
+   
+   <style>
+    header {
+               background-color: rgb(204, 66, 12);
+               color: rgb(255, 255, 255);
+               padding: 15px ;
+               text-align: center;
+         }
+        .input-group { margin-bottom: 10px; }
+        .input-group label, .input-group input { display: block; width: 100%; max-width: 300px; }
+        .input-group input { padding: 8px; margin-top: 5px; color: black; }
+  </style>
+<body>
+<div style="color: rgb(255, 255, 255); background-color: rgb(49, 48, 146);"> </style>
+    <header>
+        <h1> A Fenda - Spotted UNIFEV </h1>
+    </header>
+        <title>Upload de Avatar</title>
+   
+    <form action="action_page.php" method="post">
+    <div class="imgcontainer">
+        <img src="imagensfoto.png/img_avatar2.jpg" alt="Avatar" class="avatar"> 
+    </div>
+    <div class="imgcontainer">
+      <img src="imagensfoto.png/img_avatar1.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <div class="input-group">
+            <label for="uname"><b>Usuário</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        </div>
+
+        <div class="input-group">
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+
+    <div style="margin: 15px 0; display: flex; align-items: center; gap: 8px;">
+      <input type="checkbox" name="terms" id="terms" required>
+      <label for="terms" style="font-size: 13px; color: #ddc80e; font-weight: bold;">
+        Eu aceito as <a href="diretrizes.html" style="color: #ddc80e; text-decoration: underline;">Diretrizes de Segurança e Termo de Responsabilidade</a>
+      </label>
+   </div>
+
+         <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px; width: 100%; cursor: pointer;">
+            Login
+        </button>
+
+        <button type="button" onclick="deslogar()" class="cancelbtn" style="background-color: #f44336; margin-top: 10px; width: 100%; color: white; padding: 10px; cursor: pointer;">
+           Sair da Conta
+        </button>
+    </div> 
+</form>
+
+<nav>
+  <ul class="menu">
+    <li class="menu-item dropdown"> 
+      <a href="index.html">HOME</a>
+      <ul class="submenu">
+        <li><a href="#">Correio Elegante</a></li>
+        <li><a href="#">Mensagem Anônima</a></li>
+        <li><a href="#">Feed Principal</a></li>
+      </ul>
+    </li>
+    <li class="menu-item dropdown">
+      <a href="#">Comunidade</a>
+      <ul class="submenu">
+        <li><a href="#">Feed Geral</a></li>
+        <li><a href="#">Rolês e Festas</a></li>
+      </ul>
+    </li>
+    <li class="menu-item dropdown">
+      <a href="#">Utilidade Universitária</a>
+      <ul class="submenu">
+        <li><a href="perdidos.html">Perdidos (porém achados)</a></li>
+        <li><a href="#">Promoções</a></li>
+        <li><a href="#">Vagas em Repúblicas</a></li>
+        <li><a href="#">Divulgue seu evento</a></li>
+      </ul>
+    </li>
+    <li class="menu-item">
+      <a href="quem somos.html">Quem Somos</a>
+    </li>
+    <li class="menu-item">
+      <a href="diretrizes.html">Diretrizes de Segurança e Termo de Responsabilidade</a>
+    </li>
+       <li class="menu-item">
+      <a href="index.html" onclick="deslogar()" style="color: rgb(255, 0, 0);">Deslogar</a>
+    </li>
+  </ul>
+
+</nav>
+<main style="max-width: 800px; margin: auto;">
+    <article>
+<h2 style="font-size: 22px; text-align: center; margin-bottom: 20px;"> TERMOS DE USO E DIRETRIZES DE CONDUTA - A FENDA (SPOTTED UNIFEV) </h2>
+    </article>
+<div style="display: flex; gap: 10px; justify-content:center;">
+<img src="imagensfoto.png/Capa Termos de Segurança.jpg" alt="Capa dos Termos de Segurança" width=50%>
+</div>
+ <article style="color: #b1a508; font-size: 11px; padding: 20px; line-height: 1.5;"> 
+<h3> 1. Natureza e Vínculo Institucional</h3>
+O site "A Fenda - Spotted UNIFEV" é uma plataforma independente gerida por alunos/terceiros. Fica expressamente declarado que não existe qualquer vínculo administrativo, jurídico ou institucional com o Centro Universitário de Votuporanga (UNIFEV). Toda e qualquer opinião expressa é de inteira responsabilidade de quem a publicou.
+<h3>2. Elegibilidade e sua Veracidade (Maioridade)</h3>
+Ao acessar e interagir com a plataforma, o usuário declara:
+Ser maior de 18 anos: O ambiente pode conter discussões de cunho adulto ou voltadas à vida universitária madura.
+Capacidade Civil: O usuário afirma estar em pleno gozo de suas capacidades para assumir responsabilidades civis e penais sobre suas publicações.
+<h3>3. Proteção de Dados e Sigilo (RA e Dados Sensíveis)</h3>
+Para garantir a segurança dos alunos:
+Proibição de Dados Acadêmicos: É estritamente proibida a divulgação de RA (Registro Acadêmico), CPF, número de celular pessoal ou endereços residenciais sem autorização expressa da pessoa citada.
+Sigilo de Identidade: A plataforma se compromete com o anonimato nas ferramentas "Mensagem Anônima", porém, cooperará com autoridades judiciais caso haja crimes de calúnia, injúria ou difamação, conforme a legislação brasileira (Marco Civil da Internet). A administração reserva-se o direito de remover, sem aviso prévio, qualquer mensagem anônima que contenha ataques diretos a honra, exposição de RAs ou dados privados, visando manter a integridade da comunidade universitária.
+<h3>4. Código de Conduta e Crimes Virtuais</h3>
+Não serão toleradas publicações que configurem:
+Discurso de Ódio: Discriminação de raça, gênero, orientação sexual, religião ou origem.
+Ciberbullying: Ataques sistemáticos a alunos ou funcionários da instituição.
+Exposição Não Consentida: Divulgação de fotos íntimas ou vídeos sem autorização (Lei Carolina Dieckmann).
+Assédio: Insistência indevida após um "não" explícito.
+<h3>5. Parcerias e Divulgação Comercial</h3>
+A plataforma poderá realizar parcerias com Atléticas, Centros Acadêmicos ou empresas locais para fins de divulgação de eventos e promoções. Estes acordos são de natureza comercial ou comunitária e não alteram a isenção de responsabilidade da plataforma sobre o conteúdo gerado pelos usuários.
+<h3>6. Isenção de Responsabilidade</h3>
+O "Spotted UNIFEV" atua apenas como hospedeiro de conteúdo (provedor de aplicação). Não nos responsabilizamos por:
+Encontros físicos marcados através do site (recomenda-se locais públicos).
+Negociações de vagas em repúblicas ou eventuais caronas.
+Ofensas proferidas por usuários (sujeitas a exclusão e banimento após denúncia).
+O sigilo das mensagens anônimas será preservado perante a comunidade, porém, os dados de conexão serão fornecidos às autoridades competentes mediante ordem judicial, conforme o Marco Civil da Internet." Presidência da República
+<h3>7. Aceite dos Termos</h3>
+Ao clicar em "Entrar" ou realizar um post, você confirma que leu, entendeu e concorda com todos os pontos acima, ciente de que o descumprimento resultará no banimento imediato da conta e exclusão do conteúdo.
+    </article>
+  <article style="background-color: rgba(204, 66, 12, 0.1); padding: 20px;">
+    <h2> *Extra: Dicas de Segurança para Encontros Reais </h2>
+    <p> Sabendo que o <strong>Spotted UNIFEV</strong> facilita conexões entre alunos, recomendamos cautela ao marcar encontros presenciais originados na plataforma: </p>
+    
+    <ul style="line-height: 1.5;">
+        <li><strong>Locais Públicos:</strong> Sempre marque o primeiro encontro em locais movimentados (como a própria praça de alimentação da UNIFEV ou cafeterias no centro).</li>
+        <li><strong>Informe um Amigo:</strong> Avise alguém de sua confiança sobre onde você está indo e com quem, que hora você vai chegar, etc. Sempre é bom relembrar, se por ventura você não é maior de idade, NÃO SAIA sem autorização dos seus pais e\ou responsáveis.</li>
+        <li><strong>Transporte Próprio:</strong> Se possível, utilize seu próprio meio de transporte ou aplicativos de mobilidade conhecidos.</li>
+        <li><strong>Confirmação de Identidade:</strong> Antes de encontrar alguém anonimamente, tente validar a identidade da pessoa através de redes sociais oficiais ou quaisquer amigos em comum na faculdade.</li>
+    </ul>
+
+    <div style="display: flex; justify-content: center; margin-top: 15px;">
+        <img src="imagensfoto.png/seguranca universitaria.jpg" alt="Dica de Segurança" width="60%" style="border-radius: 5px;">
+    </div>
+</article>
+  <br>
+</main>
+<footer>
+  <strong> Entre em contato com a gente : 0800 7070 6969 ou mande um email para floorspotted.fev@outlook.com </strong>
+  <p>&copy; 2026 - Desenvolvido por Leonardo - Todos os Direitos Reservados </p>  
+</footer>
+
+<script>
+    function deslogar() {
+        if (confirm("Deseja realmente sair da conta?")) {
+            
+            alert("Você saiu com sucesso!");
+            window.location.href = "index.html"; 
+        }
+    }
+</script>
+
+</body>
+
+</html>  
